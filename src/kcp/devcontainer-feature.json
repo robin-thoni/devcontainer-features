@@ -1,0 +1,16 @@
+{
+  "id": "kcp",
+  "version": "0.1.0",
+  "name": "Kcp",
+  "documentationURL": "https://github.com/robin-thoni/devcontainer-features/tree/main/src/kcp",
+  "description": "KCP CLI",
+  "dependsOn": {
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/kubectl-helm-minikube"
+  ],
+  "customizations": {
+    "vscode": {
+    }
+  }
+}
