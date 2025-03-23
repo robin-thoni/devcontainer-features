@@ -1,0 +1,7 @@
+{
+    "name": "DevContainer Dev Environment",
+    "image": "mcr.microsoft.com/devcontainers/base:noble",
+    "features": {
+        "./src/devcontainer": {}
+    }
+}

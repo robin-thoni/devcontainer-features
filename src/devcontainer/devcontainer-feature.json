@@ -1,0 +1,10 @@
+{
+  "id": "devcontainer",
+  "version": "0.1.0",
+  "name": "DevContainer",
+  "documentationURL": "https://github.com/robin-thoni/devcontainer-features/tree/main/src/devcontainer",
+  "description": "devcontainer tools",
+  "dependsOn": {
+    "ghcr.io/devcontainers/features/node:1": {}
+  }
+}
