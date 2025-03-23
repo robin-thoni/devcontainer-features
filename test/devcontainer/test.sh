@@ -4,4 +4,8 @@ set -x
 set -e
 set -o pipefail
 
-exit 0 # TODO to be implemented
+source dev-container-features-test-lib
+
+check "Devcontainer version" devcontainer --version
+
+reportResults
