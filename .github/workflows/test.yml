@@ -73,7 +73,7 @@ jobs:
       - name: Generating tests for '${{ matrix.features }}'
         if: ${{ matrix.features != 'none' }}
         run: |
-          devcontainer features test --skip-scenarios -f ${{ matrix.features }} -i mcr.microsoft.com/devcontainers/base:noble
+          devcontainer features test -f ${{ matrix.features }} -i mcr.microsoft.com/devcontainers/base:noble
 
   # This job is used as a reference in repo settings to make the checks in this
   # workflow required without having to add every single variant of the `test`
