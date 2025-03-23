@@ -4,11 +4,8 @@ set -x
 set -e
 set -o pipefail
 
-# Only required to get GOOS and GOARCH
-if ! command -v go; then
-  sudo apt-get update
-  sudo apt-get install -y golang
-fi
+# Fail if Go is not installed
+go version
 
 curl -L -o kubebuilder "https://go.kubebuilder.io/dl/latest/$(go env GOOS)/$(go env GOARCH)"
 chmod +x kubebuilder

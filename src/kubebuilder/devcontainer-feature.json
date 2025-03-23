@@ -1,6 +1,6 @@
 {
   "id": "kubebuilder",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "name": "Kubebuilder",
   "documentationURL": "https://github.com/robin-thoni/devcontainer-features/tree/main/src/kubebuilder",
   "description": "Kubebuilder CLI",
