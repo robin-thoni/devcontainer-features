@@ -1,0 +1,10 @@
+{
+    "default": {
+        "image": "mcr.microsoft.com/devcontainers/base:noble",
+        "remoteUser": "vscode",
+        "features": {
+            "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
+            "kcp": {}
+        }
+    }
+}
