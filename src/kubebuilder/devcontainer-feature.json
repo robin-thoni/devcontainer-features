@@ -1,0 +1,16 @@
+{
+  "id": "kubebuilder",
+  "version": "0.1.0",
+  "name": "Kubebuilder",
+  "documentationURL": "https://github.com/robin-thoni/devcontainer-features/tree/main/src/kubebuilder",
+  "description": "Kubebuilder CLI",
+  "dependsOn": {
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/go"
+  ],
+  "customizations": {
+    "vscode": {
+    }
+  }
+}
