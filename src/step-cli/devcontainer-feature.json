@@ -1,6 +1,6 @@
 {
   "id": "step-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "Step CLI",
   "documentationURL": "https://github.com/robin-thoni/devcontainer-features/tree/main/src/step-cli",
   "description": "Install \"step\" cli binary",

@@ -140,4 +140,8 @@ install() {
 echo_banner "devcontainer.community"
 echo "Installing $name..."
 install "$@"
+
+mkdir -p /etc/bash_completion.d
+step completion bash > /etc/bash_completion.d/step
+
 echo "(*) Done!"
