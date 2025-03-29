@@ -1,0 +1,17 @@
+{
+  "id": "smallstep.com",
+  "version": "0.1.0",
+  "name": "Step CLI",
+  "documentationURL": "https://github.com/robin-thoni/devcontainer-features/tree/main/src/step-cli",
+  "description": "Install \"step\" cli binary",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "proposals": [
+        "latest"
+      ],
+      "description": "Version of \"step cli\" to install."
+    }
+  }
+}
