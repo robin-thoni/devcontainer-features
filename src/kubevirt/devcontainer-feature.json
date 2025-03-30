@@ -1,0 +1,17 @@
+{
+  "id": "kubevirt",
+  "version": "0.1.0",
+  "name": "KubeVirt",
+  "documentationURL": "https://github.com/robin-thoni/devcontainer-features/tree/main/src/kubevirt",
+  "description": "KubeVirt CLI",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "proposals": [
+        "latest"
+      ],
+      "description": "Version of virtctl to install."
+    }
+  }
+}
