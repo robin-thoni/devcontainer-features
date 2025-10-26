@@ -1,0 +1,17 @@
+{
+  "id": "cmctl",
+  "version": "0.1.0",
+  "name": "Cert-Manager CLI",
+  "documentationURL": "https://github.com/robin-thoni/devcontainer-features/tree/main/src/cmctl",
+  "description": "Cert-Manager CLI",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "proposals": [
+        "latest"
+      ],
+      "description": "Version of cmctl to install."
+    }
+  }
+}
