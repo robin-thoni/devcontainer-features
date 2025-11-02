@@ -1,0 +1,17 @@
+{
+  "id": "restic",
+  "version": "0.1.0",
+  "name": "Restic Backup Tool",
+  "documentationURL": "https://github.com/robin-thoni/devcontainer-features/tree/main/src/restic",
+  "description": "Restic is a fast, secure, and efficient backup program.",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "proposals": [
+        "latest"
+      ],
+      "description": "Version of restic to install."
+    }
+  }
+}
