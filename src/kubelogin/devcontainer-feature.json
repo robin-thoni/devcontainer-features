@@ -1,0 +1,17 @@
+{
+  "id": "kubelogin",
+  "version": "0.1.0",
+  "name": "Kubelogin CLI",
+  "documentationURL": "https://github.com/robin-thoni/devcontainer-features/tree/main/src/kubelogin",
+  "description": "Kubelogin CLI",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "latest",
+      "proposals": [
+        "latest"
+      ],
+      "description": "Version of kubelogin to install."
+    }
+  }
+}
