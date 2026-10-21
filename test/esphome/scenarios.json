@@ -1,0 +1,10 @@
+{
+    "test": {
+        "image": "mcr.microsoft.com/devcontainers/base:noble",
+        "remoteUser": "vscode",
+        "features": {
+            "ghcr.io/devcontainers/features/python:1": {},
+            "esphome": {}
+        }
+    }
+}

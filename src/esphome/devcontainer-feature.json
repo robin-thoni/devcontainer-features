@@ -1,0 +1,23 @@
+{
+  "id": "esphome",
+  "version": "0.1.0",
+  "name": "ESPHome",
+  "description": "ESPHome development environment",
+  "options": {
+    "version": {
+      "type": "string",
+      "default": "2026.9.0",
+      "description": "The version of ESPHome to install."
+    }
+  },
+  "installsAfter": [
+    "ghcr.io/devcontainers/features/python"
+  ],
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ESPHome.esphome-vscode"
+      ]
+    }
+  }
+}
