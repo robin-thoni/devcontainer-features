@@ -1,4 +1,11 @@
 {
+    "test": {
+        "image": "mcr.microsoft.com/devcontainers/base:noble",
+        "remoteUser": "vscode",
+        "features": {
+            "kubelogin": {}
+        }
+    },
     "default": {
         "image": "mcr.microsoft.com/devcontainers/base:noble",
         "remoteUser": "vscode",

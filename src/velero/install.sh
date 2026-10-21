@@ -6,7 +6,7 @@ set -o pipefail
 
 if [ "${VERSION}" == "latest" ] || [ -z "${VERSION}" ]
 then
-    VERSION="$(curl -s https://api.github.com/repos/vmware-tanzu/velero/releases/latest | jq -r .tag_name)"
+    VERSION="$(curl -sL https://api.github.com/repos/vmware-tanzu/velero/releases/latest | jq -r .tag_name)"
 fi
 ARCH=$(uname -s | tr A-Z a-z)-$(uname -m | sed 's/x86_64/amd64/')
 

@@ -1,5 +1,5 @@
 {
-    "default": {
+    "test": {
         "image": "mcr.microsoft.com/devcontainers/base:noble",
         "remoteUser": "vscode",
         "features": {
