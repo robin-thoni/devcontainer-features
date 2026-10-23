@@ -1,6 +1,6 @@
 {
   "id": "velero",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "name": "Velero CLI",
   "documentationURL": "https://github.com/robin-thoni/devcontainer-features/tree/main/src/velero",
   "description": "Velero CLI",
